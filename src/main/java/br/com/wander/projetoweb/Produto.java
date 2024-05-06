@@ -9,11 +9,13 @@ package br.com.wander.projetoweb;
  * @author wander.silva
  */
 public class Produto {
+    public int id;
     public String descricao;
     public float  preco;
     
     //Método construtor...
-    public Produto(String descricao, float preco){
+    public Produto(int id, String descricao, float preco){
+        this.id = id;
         this.descricao = descricao;
         this.preco = preco;
     }
