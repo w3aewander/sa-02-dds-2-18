@@ -10,10 +10,13 @@
 
 <main class="content">
     
-    <h1>Sobre nossos serviços</h1>
+    <h1>Sobre nós...</h1>
+    <p>
+        Somos um empresasa. dlfajsk çsakdfçsafsaçl kfsl
+    </p>
     
 </main>
 
 
 <!-- uma outra forma de fazer o includ -->
-<jsp:include page="header.jsp"  />
+<jsp:include page="footer.jsp"  />
