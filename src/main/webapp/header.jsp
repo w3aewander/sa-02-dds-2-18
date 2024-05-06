@@ -19,8 +19,8 @@
 
 
         <img src="assets/img/banner.jpeg" width="100%" />
-        <p>
+       
         <%@include file="navbar.jsp" %>
-        </p>
+      
 
    
