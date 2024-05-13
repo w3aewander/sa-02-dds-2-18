@@ -4,8 +4,6 @@
     Author     : wander.silva
 --%>
 
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
-
 <%@include file="header.jsp" %>
 
 <main class="content">
@@ -15,7 +13,7 @@
       String id=request.getParameter("id");
       
   
-      out.println("ParÃ¢metro recebido: " + id);
+      out.println("Parâmetro recebido: " + id);
 
     %>
     
