@@ -2,6 +2,7 @@
 
 <%@page import="br.com.wander.projetoweb.Produto"%>
 <%@page import="br.com.wander.projetoweb.Estoque"%>
+
 <%@include file="header.jsp" %>
 
 
@@ -23,6 +24,8 @@
        
        Estoque.produtos.add( new Produto(id, descricao, preco) );
        
+       RequestDispatcher requestDispatcher = request.getRequestDispatcher("produtos.jsp");
+       requestDispatcher.forward(request, response);
 
     %>
 </main>
